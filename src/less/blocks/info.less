@@ -2,10 +2,49 @@
 
 
 .info {
+  background-image: url('../img/guy.png');
+  background-repeat: no-repeat;
+  background-size: 31%;
+  background-position: 79px 43px;
+
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  &__wrapper {
+    flex-basis: 50%;
+  }
 
   &__title {
-    font-size: 46px;
-    
+    margin-top: 100px;
+    margin-bottom: 45px;
+  }
+
+  &__list {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  &__btn {
+    margin-top: 45px;
+    margin-bottom: 55px;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #b2b2b2;
+    box-sizing: border-box;
+  }
+
+  &__link-wrapper {
+
+    padding: 30px;
+    border: 1px dashed #b2b2b2;
   }
 
 }

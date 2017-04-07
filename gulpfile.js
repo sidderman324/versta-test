@@ -14,6 +14,7 @@ const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const mqpacker = require('css-mqpacker');
 const replace = require('gulp-replace');
+const font2css = require('gulp-font2css');
 const fileinclude = require('gulp-file-include');
 const del = require('del');
 const browserSync = require('browser-sync').create();
