@@ -4,8 +4,9 @@
 .info {
   background-image: url('../img/guy.png');
   background-repeat: no-repeat;
-  background-size: 31%;
-  background-position: 79px 43px;
+  background-size: 35%;
+  background-position: 107px 71px;
+  padding-bottom: 128px;
 
   &__inner {
     display: flex;
@@ -14,22 +15,41 @@
   }
 
   &__wrapper {
-    flex-basis: 50%;
+    flex-basis: 57%;
   }
 
   &__title {
-    margin-top: 100px;
-    margin-bottom: 45px;
+    margin-top: 89px;
+    margin-bottom: 32px;
   }
 
   &__list {
     margin-top: 25px;
     margin-bottom: 25px;
+    padding-left: 27px;
+  }
+
+  &__item {
+    list-style-type: none;
+    position: relative;
+    line-height: 30px;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #0f4ed0;
+      position: absolute;
+      left: -19px;
+      top: 11px;
+    }
   }
 
   &__btn {
-    margin-top: 45px;
-    margin-bottom: 55px;
+    margin-top: 41px;
+    margin-bottom: 58px;
   }
 
   &__link {
@@ -39,10 +59,15 @@
     text-transform: uppercase;
     color: #b2b2b2;
     box-sizing: border-box;
+    letter-spacing: 1px;
+
+    &:first-of-type {
+      margin-bottom: 7px;
+    }
   }
 
   &__link-wrapper {
-
+    width: 72%;
     padding: 30px;
     border: 1px dashed #b2b2b2;
   }
