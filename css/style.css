@@ -211,7 +211,7 @@ This must be run when you have at least 2 sprites.
 .nav__item:after {
   content: '';
   display: inline-block;
-  background-image: url(../img/sprite-039459358558591373.png);
+  background-image: url(../img/sprite-03195948963094548.png);
   background-position: 0px 0px;
   width: 8px;
   height: 6px;
@@ -329,6 +329,15 @@ This must be run when you have at least 2 sprites.
 }
 .info__link:first-of-type {
   margin-bottom: 7px;
+}
+.info__link a {
+  font-size: 14px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #b2b2b2;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 .info__link-wrapper {
   width: 72%;
