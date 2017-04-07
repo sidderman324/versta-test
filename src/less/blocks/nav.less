@@ -6,4 +6,22 @@
   border: 0;
   font-size: 16px;
   color: @white-text;
+
+  &__item {
+    position: relative;
+    margin-left: 11px;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      .sprite(@arrow);
+      position: absolute;
+      right: -17px;
+      top: 8px;
+    }
+    &:hover {
+      opacity: .7;
+      transition: ease-out 0.25s;
+    }
+  }
 }
